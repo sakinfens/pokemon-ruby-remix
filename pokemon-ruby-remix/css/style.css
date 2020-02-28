@@ -1,0 +1,157 @@
+body{
+	font-family: 'Courier Prime';
+	margin: 0;
+	clear: both;
+	background-color: #d6d6d6;
+}
+
+
+div.modal{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 1;
+}
+
+
+div.text-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	padding: 5%;
+	background-color: #424656;
+	border-radius: 10px;
+	color: #ffffff;
+}
+
+.text-box button, #fight-button{
+	color: white;
+	background-color: #1E74DB;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 24px;
+
+
+}
+div.text-box p{
+	cursor: pointer;
+	padding: 10px;
+	margin: 5px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+div.text-box p:hover{
+	background-color: red;
+}
+.answer-box{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+/*//////////////////////*/
+section{
+	display: flex;
+	flex-direction: row;
+}
+section div{
+	margin: 0 auto;
+}
+h1.h1-title{
+	padding: 15px;
+	width: 100vw;
+	background-color: #424656;
+	color: #ffffff;
+}
+aside{
+	text-align: center;
+	max-width: 20vw;
+	padding: 10px;
+}
+aside p{
+	padding: 10px;
+}
+aside p:hover {
+	background-color: #1E74DB;
+	color: white;
+	cursor: pointer;
+}
+div.arena{
+	border: 1px solid black;
+	height: 50vh;
+	width: 70vw;
+	background-image: url('../images/grassarea.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+}
+section h3{
+	padding: 10px;
+}
+section h2{
+	padding: 10px;
+}
+section h4{
+	padding: 10px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+div.info{
+	display: flex;
+	flex-direction: row;
+	border: 1px solid black;
+	width: 70vw;
+	border-radius: 10px;
+	justify-content: space-between;
+}
+.info div{
+	max-width: 200px;
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+.arena{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.arena img{
+	width: 200px;
+}
+.moves h4:hover{
+	background-color: #1E74DB;
+	color: white;
+	border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

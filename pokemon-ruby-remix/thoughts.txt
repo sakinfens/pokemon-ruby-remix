@@ -1,0 +1,37 @@
+App that alllows you to chose your pokemon based on a list of questions 
+
+Questions: 
+	1)What type of pokemon are you looking for
+	2) 
+	
+
+
+
+
+	categories
+	-Lazy
+		-
+			-slacking 
+			-snorelex
+			-magikarp
+	-Helpfull
+		-
+			-Chansey
+			-Audino
+			-wigglycuff
+	-Leader
+		-
+			-pikachu
+			-blaziken
+			-squirtle
+	-Lengendary
+		-Rayquaza
+
+//LOgic
+if 
+
+
+ONce your pokemon is picked there is a little mini fight
+
+Lower level pokemon: Bidoof
+
